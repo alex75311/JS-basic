@@ -6,3 +6,4 @@
 let cels = prompt('Введите температуру в градумах Цельсия')
 let farentgeit = (9/5) * cels + 32
 alert(farentgeit)
+
