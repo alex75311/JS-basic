@@ -26,10 +26,10 @@ function getDiv(a, b) {
 
 function Calc(arg1, arg2, operation) {
     switch (operation) {
-        case "+": return getSum(arg1, arg2)
-        case "-": return getDiff(arg1, arg2)
-        case "*": return getMult(arg1, arg2)
-        case "/": return getDiv(arg1, arg2)
+        case "+": return getSum(arg1, arg2);
+        case "-": return getDiff(arg1, arg2);
+        case "*": return getMult(arg1, arg2);
+        case "/": return getDiv(arg1, arg2);
     }
 }
 
